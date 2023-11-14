@@ -1,3 +1,3 @@
-export function App() {
-    return <p>Hello world!</p>
+export default function App() {
+  return <button type="button">test</button>;
 }
