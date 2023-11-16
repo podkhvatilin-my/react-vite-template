@@ -1,3 +1,5 @@
-export default function App() {
-  return <button type="button">test</button>;
+import { Button } from '@components';
+
+export function App() {
+  return <Button>Example</Button>;
 }
