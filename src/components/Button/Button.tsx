@@ -1,6 +1,6 @@
-import type { ButtonProps } from './types';
+import type { ButtonProps } from './Button.types';
 
-import classes from './styles.module.scss';
+import classes from './Button.styles.module.scss';
 
 export function Button(props: ButtonProps) {
   const { children } = props;

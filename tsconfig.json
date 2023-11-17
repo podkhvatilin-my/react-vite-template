@@ -19,11 +19,13 @@
     "paths": {
       "@/*": ["src/*"],
       "@components": ["src/components"],
-    }
+    },
   },
   "include": [
     "vite.config.ts",
-    "src"
+    ".storybook/main.ts",
+    ".storybook/preview.ts",
+    "src",
   ],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
 }
